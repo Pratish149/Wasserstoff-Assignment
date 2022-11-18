@@ -18,7 +18,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path='/Wasserstoff-Assignment' element={<User user={user} setUser={setUser} setTopicList={setTopicList} />} exact />
-            <Route path='/dashboard' element={<Dashboard setTopicName={setTopicName} setDetails={setDetails} topicList={topicList} setTopicID={setTopicID} user={user} />} />
+            <Route path='/dashboard' element={<Dashboard setTopicName={setTopicName} setDetails={setDetails} topicList={topicList} setTopicList={setTopicList} setTopicID={setTopicID} user={user} />} />
             <Route path='/dashboard/add_topic' element={<Topic topicName={topicName} details={details} setTopicList={setTopicList} topicList={topicList} topicID={topicID} />} />
           </Routes>
         </BrowserRouter>

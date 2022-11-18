@@ -24,7 +24,7 @@ function User({ user, setUser, setTopicList }) {
         <div className="username">
             <input id="user" value={user} onChange={(e) => setUser(e.target.value)} placeholder="Username"/>
             <span className="error" style={{visibility:  isVisible ? 'visible' : 'hidden'}}>*Please enter username</span>
-            <button className="login" onClick={handleClick} >Enter</button>
+            <button className="login" onClick={handleClick} >Log In</button>
         </div>
     )
 }
