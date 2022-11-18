@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Wasserstoff-Assignment/static/css/main.c3e02aab.css",
-    "main.js": "/Wasserstoff-Assignment/static/js/main.61fba9a5.js",
+    "main.js": "/Wasserstoff-Assignment/static/js/main.c0d42522.js",
     "index.html": "/Wasserstoff-Assignment/index.html",
     "main.c3e02aab.css.map": "/Wasserstoff-Assignment/static/css/main.c3e02aab.css.map",
-    "main.61fba9a5.js.map": "/Wasserstoff-Assignment/static/js/main.61fba9a5.js.map"
+    "main.c0d42522.js.map": "/Wasserstoff-Assignment/static/js/main.c0d42522.js.map"
   },
   "entrypoints": [
     "static/css/main.c3e02aab.css",
-    "static/js/main.61fba9a5.js"
+    "static/js/main.c0d42522.js"
   ]
 }
