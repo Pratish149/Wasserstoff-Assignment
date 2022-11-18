@@ -23,7 +23,7 @@ function Dashboard({ setTopicName, setDetails, topicList, setTopicID, user }) {
         <div>
             <span className="header">Dashboard</span>
             <div className="logout">
-                <button onClick={() => navigate('/')}>Log Out</button>
+                <button onClick={() => navigate('/Wasserstoff-Assignment')}>Log Out</button>
             </div>
             <div className="container">
                 <div className="addtopic" onClick={() => handleClick("","","")}><CgAddR /> Add Topic</div>
